@@ -1,6 +1,5 @@
 def addition(num1, num2)
-  puts "#{num1}"
-  puts "#{num2}"
+  puts "#{num1} + #{num2}"
   answer = num1 + num2
   puts "#{answer}"
   return answer
