@@ -8,7 +8,7 @@ end
 def subtraction(num1, num2)
   puts "#{num1} - #{num2}"
   answer = num1 - num2
-  
+  puts "#{answer}"
 end
 
 def division(num1, num2)
