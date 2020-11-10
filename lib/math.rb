@@ -34,10 +34,17 @@ def modulo(num1, num2)
 end
 
 def square_root(num)
-  puts "Math.sqrt(#{num})"
-  
+  puts "square root of #{num}"
+  answer = Math.sqrt(num)
+  puts "#{answer}"
+  return answer
 end
 
 addition(1, 1)
+subtraction(2, 1)
+division(10, 2)
+multiplication(5, 2)
+modulo(34, 5)
+square_root(81)
 
 
