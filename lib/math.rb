@@ -29,7 +29,7 @@ end
 def modulo(num1, num2)
   puts "#{num1} / #{num2}" 
   answer = num1 / num2
-  
+  puts "#{answer}"
 end
 
 def square_root(num)
